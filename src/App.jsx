@@ -14,6 +14,7 @@ function App() {
       <Navbar />
       <div className = "input-container">
         <input className = "link-input" placeHolder = "Enter spreadsheet URL here"></input>
+        <button className = "link-submit">Submit</button>
       </div>
       
       

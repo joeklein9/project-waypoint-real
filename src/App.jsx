@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from '/components/Navbar.jsx'
-//import Data from '/components/Data.jsx'
+import Spreadsheet from '/components/Spreadsheet.jsx'
+import Map from '/components/Map.jsx'
 
 
 
@@ -10,12 +11,15 @@ function App() {
 
 
   return (
-    <div className="App">  
+    <div className="main">  
       <Navbar />
       <div className = "input-container">
         <input className = "link-input" placeHolder = "Enter spreadsheet URL here"></input>
         <button className = "link-submit">Submit</button>
       </div>
+
+      <Spreadsheet />
+      <Map />
       
       
 

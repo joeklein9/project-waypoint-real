@@ -19,7 +19,8 @@ function App() {
       </div>
 
       <Spreadsheet />
-      <Map />
+      <Map/>
+
       
       
 

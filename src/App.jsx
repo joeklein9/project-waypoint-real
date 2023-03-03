@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from '/components/Navbar.jsx'
+import Data from '/components/Data.jsx'
+
+
 
 
 function App() {
@@ -13,6 +16,7 @@ function App() {
         <input className = "link-input" placeHolder = "Enter spreadsheet URL here"></input>
       </div>
       
+      <Data />
       
 
     </div>

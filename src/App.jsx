@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from '/components/Navbar.jsx'
-import Spreadsheet from '/components/Spreadsheet.jsx'
-import Map from '/components/Map.jsx'
+import Navbar from '/src/components/Navbar.jsx'
+import Spreadsheet from '/src/components/Spreadsheet.jsx'
+import MapContainer from '/src/components/MapContainer.jsx'
 
 
 
@@ -14,12 +14,12 @@ function App() {
     <div className="main">  
       <Navbar />
       <div className = "input-container">
-        <input className = "link-input" placeHolder = "Enter spreadsheet URL here"></input>
+        <input className = "link-input"></input>
         <button className = "link-submit">Submit</button>
       </div>
 
       <Spreadsheet />
-      <Map/>
+      <MapContainer/>
 
       
       

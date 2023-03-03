@@ -3,6 +3,10 @@ body {
   padding:0;
 }
 
+.main {
+  margin:0;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -23,6 +27,7 @@ body {
 .navbar-container {
   height:50px;
   background-color:rgb(169, 246, 4);
+  margin:0;
 
 }
 
@@ -45,3 +50,11 @@ body {
   margin-left:10px;
 }
  
+
+.spreadsheet {
+  color:black;
+}
+
+.map-container {
+  color:black;
+}

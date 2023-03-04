@@ -13,22 +13,22 @@ const mapStyles = {
     {
       name: "Location 1",
       location: { 
-        lat: 41.3954,
-        lng: 2.162 
+        lat: 33.3954,
+        lng: -84 
       },
     },
     {
       name: "Location 2",
       location: { 
-        lat: 41.3917,
-        lng: 2.1649
+        lat: 33,
+        lng: -84.23
       },
     },
     {
       name: "Location 3",
       location: { 
-        lat: 41.3773,
-        lng: 2.1585
+        lat: 33.76,
+        lng: -84.38
       },
     },
     {
@@ -61,6 +61,7 @@ export default function MapContainer () {
 
             
           />
+          
        </LoadScript>
     )
   }

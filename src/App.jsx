@@ -7,7 +7,7 @@ import MapContainer from '/src/components/MapContainer.jsx'
 import Driver from '/src/components/Driver.jsx'
 import Location from '/src/components/Location.jsx'
 import Participant from '/src/components/Participant.jsx'
-import Collapsible from '/src/components/Collapsible.jsx'
+import Collapsible from './components/Collapsible'
 
 
 
@@ -20,9 +20,13 @@ function App() {
     <>
       <Navbar />
       <div className="main">
-        <Driver />
+        <Driver /> 
         <Participant/>
         <Location />
+
+      <div className = "collapsible-container">
+            <Collapsible label = "This is the label" />
+      </div>
         
       
       

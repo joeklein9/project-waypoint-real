@@ -10,7 +10,6 @@ export default function Driver () {
 
     return (
         <h1 className = "driver-text">Driver Data
-            <Collapsible />
         </h1>
 
     )

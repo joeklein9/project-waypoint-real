@@ -81,3 +81,13 @@ body {
 .participant-text {
   color:black;
 }
+
+.content {
+  font-size:12px;
+}
+
+.collapsible-container {
+  border:2px solid red;
+  display:flex; 
+  flex-direction:column;
+}

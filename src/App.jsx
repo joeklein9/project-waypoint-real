@@ -20,8 +20,9 @@ function App() {
       <Navbar />
       <div className="main">
         <Driver/> 
-        <Location/>
         <Participant/>
+        <Location />
+        
       
       
       

@@ -20,16 +20,16 @@ function App() {
     <>
       <Navbar />
       <div className="main">
-        <Driver /> 
-        <Participant/>
-        <Location />
-
-      <div className = "collapsible-container">
-            <Collapsible label = "This is the label" />
-      </div>
+        <Collapsible label = "Driver">
+          <p>This is the driver content</p>
+        </Collapsible>
+        <Collapsible label = "Participant">
+          <p>This is the participant content</p>
+        </Collapsible><Collapsible label = "Location">
+          <p>This is the location content</p>
+        </Collapsible>
         
-      
-      
+
       
       
       

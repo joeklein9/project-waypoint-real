@@ -7,7 +7,12 @@ import MapContainer from '/src/components/MapContainer.jsx'
 import Driver from '/src/components/Driver.jsx'
 import Location from '/src/components/Location.jsx'
 import Participant from '/src/components/Participant.jsx'
-import Collapsible from './components/Collapsible'
+import Collapsible from './components/Driver'
+import {drivers} from '/data/drivers.js'
+//import {participants} from '/data/participants.js'
+//import {locations} from '/data/locations.js'
+
+
 
 
 
@@ -19,15 +24,26 @@ function App() {
 
     <>
       <Navbar />
-      <div className="main">
-        <Collapsible label = "Driver">
-          <p>This is the driver content</p>
-        </Collapsible>
-        <Collapsible label = "Participant">
-          <p>This is the participant content</p>
-        </Collapsible><Collapsible label = "Location">
-          <p>This is the location content</p>
-        </Collapsible>
+      <div className="driver-container">
+        <Driver 
+        label = {drivers[0].name} 
+        phone = {drivers[0].phone} 
+        seats = {drivers[0].seats} 
+        occupiedSeats = {drivers[0].occupiedSeats}
+        routeId = {drivers[0].routeId}
+        >
+          <p>Driver name: {drivers[0].name}</p>
+        </Driver>
+        <Driver 
+        label = {drivers[1].name} 
+        phone = {drivers[1].phone} 
+        seats = {drivers[1].seats} 
+        occupiedSeats = {drivers[1].occupiedSeats}
+        routeId = {drivers[1].routeId}
+        >
+          <p>Driver name: {drivers[1].name}</p>
+        </Driver>
+        
         
 
       

@@ -53,7 +53,7 @@ export default function MapContainer () {
     
     return (
        <LoadScript
-         googleMapsApiKey='AIzaSyBMUvVM4e1DIjopxTbJcKjgyJkfqEeprUY'>
+         googleMapsApiKey>
           <GoogleMap
             mapContainerStyle={mapStyles}
             zoom={13}

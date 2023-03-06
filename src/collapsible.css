@@ -1,0 +1,12 @@
+.collapsible .toggle {
+    background: rgb(169, 246, 4);
+    border: unset;
+    cursor:pointer;
+    font:unset;
+    padding:0.5em;
+    height:40px;
+    width:90px;
+    border-radius:5px;
+
+    
+}

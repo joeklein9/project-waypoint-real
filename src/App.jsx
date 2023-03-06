@@ -19,30 +19,27 @@ import {drivers} from '/data/drivers.js'
 
 function App() {
 
+  const driversElement = drivers.map(driver => {
+   return  <Driver
+   label = {driver.name} 
+        phone = {driver.phone} 
+        seats = {driver.seats} 
+        occupiedSeats = {driver.occupiedSeats}
+        routeId = {driver.routeId}
+   
+   
+   />
+  })
+
 
   return (
 
     <>
       <Navbar />
-      <div className="driver-container">
-        <Driver 
-        label = {drivers[0].name} 
-        phone = {drivers[0].phone} 
-        seats = {drivers[0].seats} 
-        occupiedSeats = {drivers[0].occupiedSeats}
-        routeId = {drivers[0].routeId}
-        >
-          <p>Driver name: {drivers[0].name}</p>
-        </Driver>
-        <Driver 
-        label = {drivers[1].name} 
-        phone = {drivers[1].phone} 
-        seats = {drivers[1].seats} 
-        occupiedSeats = {drivers[1].occupiedSeats}
-        routeId = {drivers[1].routeId}
-        >
-          <p>Driver name: {drivers[1].name}</p>
-        </Driver>
+      <div className="driver-container"> Drivers
+       {driversElement}
+          
+        
         
         
 

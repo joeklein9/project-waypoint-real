@@ -1,4 +1,4 @@
- export const drivers  = [
+ export   const drivers  = [
     {
         name: "Joseph", 
         phone: "404-918-6900",
@@ -13,6 +13,14 @@
         seats: 5,
         occupiedSeats: 4,
         routeId: 29
+    },
+    {
+        name: "Jennifer", 
+        phone: "404-900-2939",
+        seats: 3,
+        occupiedSeats: 2,
+        routeId: 59
     }
+
 
 ]

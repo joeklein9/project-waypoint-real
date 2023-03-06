@@ -91,20 +91,29 @@ body {
   border:2px solid red;
   display:flex; 
   flex-direction:column;
+  
 }
 
 .driver-list {
   list-style:none;
   text-align:left;
+  margin-left:20px;
 }
 
 .driver-container {
   display:flex;
   flex-direction:column;
   justify-content: center;
+  margin-left: 20px;
+
   
 }
 
 .collapsible-list {
   list-style:none;
+}
+
+.content {
+  text-align:left;
+  margin-left:5px;
 }

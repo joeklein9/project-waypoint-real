@@ -20,6 +20,14 @@
         seats: 3,
         occupiedSeats: 2,
         routeId: 59
+    },
+
+    {
+        name: "Nabil", 
+        phone: "404-392-2032",
+        seats: 4,
+        occupiedSeats: 4,
+        routeId: 10
     }
 
 

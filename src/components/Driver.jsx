@@ -16,7 +16,6 @@ export default function Driver (props) {
             
             <div className = "collapsible-card">
                 <ul className = "collapsible-list">
-                    <li className = "content">{props.name}</li>
                     <li className = "content">Phone: {props.phone}</li>
                     <li className = "content">Seats: {props.seats}</li>
                     <li className = "content">Occupied seats: {props.occupiedSeats}</li>

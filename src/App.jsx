@@ -36,7 +36,8 @@ function App() {
 
     <>
       <Navbar />
-      <div className="driver-container"> Drivers
+      <div className="driver-container">
+        <h1 className ="drivers-header">Drivers</h1>
        {driversElement}
           
         

@@ -7,6 +7,13 @@
     height:40px;
     width:90px;
     border-radius:5px;
+    margin-bottom:0.5em;
 
     
+}
+
+.collapsible .content {
+    border: 1px solid #afafaf;
+    max-width:150px;
+    padding:0.2em;
 }

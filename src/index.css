@@ -111,9 +111,12 @@ body {
 
 .collapsible-list {
   list-style:none;
+  
+
 }
 
 .content {
   text-align:left;
   margin-left:5px;
 }
+

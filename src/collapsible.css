@@ -16,4 +16,11 @@
     border: 1px solid #afafaf;
     max-width:150px;
     padding:0.2em;
+    border-radius:5px;
+
+}
+    
+
+.collapsible .content .show {
+    height:200px;
 }

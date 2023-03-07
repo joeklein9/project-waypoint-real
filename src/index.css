@@ -118,5 +118,6 @@ body {
 .content {
   text-align:left;
   margin-left:5px;
+  list-style:none;
 }
 
